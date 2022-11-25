@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+html {
+  height: 100%;
+  color: #fff;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+.SideBar {
+  background-color: #040517;
+  height: 100vh;
+  padding: 7%;
+}
+.SideBar img {
+  display: inline-block;
+  height: auto;
+  width: 15%;
+  border-radius: 15px;
+  margin-right: 2%;
+}
+.SideBar .infoProfile {
+  display: inline-block;
+  vertical-align: 15px;
+}
+.SideBar .infoProfile h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.SideBar .infoProfile div {
+  margin-top: 5%;
+  opacity: 0.5;
+}
+.SideBar .infoProfile div p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.5vw;
+  vertical-align: 3px;
+  display: inline-block;
+}
+.SideBar .infoProfile div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.SideBar nav {
+  padding: 10%;
+  margin-top: 80%;
+}
+.SideBar nav hr {
+  margin-top: 20%;
+}
+.SideBar nav ul {
+  margin-top: 5%;
+}
+.SideBar nav ul li {
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 2% 0;
+}
+.SideBar nav ul li p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.6vw;
+  vertical-align: 4px;
+  display: inline-block;
+  margin-left: 2%;
+}
+.SideBar nav ul li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.Painel {
+  background: linear-gradient(to right, #0d1226 0%, #1f1734 100%);
+  padding: 3% 4%;
+}
+.Painel .containerSearch {
+  margin-bottom: 5%;
+}
+.Painel .containerSearch .SearchBar {
+  background: transparent;
+  background-image: url("../../assets/image/search.svg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  opacity: 0.5;
+  padding-left: 2%;
+  border: transparent;
+  height: 25px;
+  width: 20%;
+  color: white;
+}
+.Painel .containerSearch .SearchBar:focus {
+  opacity: 1;
+}
+.Painel .ContainerImg {
+  width: 70vw;
+}
+.Painel .ContainerImg h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin: 2% 0;
+}
+.Painel .ContainerImg #containerMusic {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.Painel .ContainerImg #containerMusic::-webkit-scrollbar {
+  width: 5px;
+  border: transparent;
+}
+.Painel .ContainerImg #containerMusic::-webkit-scrollbar-track {
+  background: transparent;
+}
+.Painel .ContainerImg #containerMusic::-webkit-scrollbar-thumb {
+  background-color: rgb(32, 15, 86);
+  border-radius: 15px;
+  width: 20%;
+}
+.Painel .ContainerImg #containerMusic div {
+  margin-right: 35px;
+}
+.Painel .ContainerImg #containerMusic div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.8vw;
+  margin: 2% 0;
+  width: 70%;
+}
+.Painel .ContainerImg #containerMusic img {
+  border-radius: 15px;
+  height: 15vw;
+  width: 15vw;
+}
+.Painel .ContainerImg #containerMusic p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.5vw;
+  vertical-align: 3px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.Painel .GridProfiles {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Painel .GridProfiles h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin: 0.5% 0;
+}
+.Painel .Tracks {
+  padding: 5%;
+  width: 70vw;
+  overflow-x: scroll;
+}
+.Painel .Tracks::-webkit-scrollbar {
+  width: 5px;
+  border: transparent;
+}
+.Painel .Tracks::-webkit-scrollbar-track {
+  background: transparent;
+}
+.Painel .Tracks::-webkit-scrollbar-thumb {
+  background-color: rgb(32, 15, 86);
+  border-radius: 15px;
+  width: 20%;
+}
+.Painel .Tracks div {
+  display: flex;
+  flex-direction: row;
+}
+.Painel .Tracks div img {
+  border-radius: 15px;
+  height: 5vw;
+  width: 5vw;
+}
+
+/*# sourceMappingURL=style.css.map */

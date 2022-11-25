@@ -1,0 +1,25 @@
+{
+  "name": "umusic",
+  "version": "1.0.0",
+  "description": "Desafio um da DevChallenger ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoRanieli/UMusic.git"
+  },
+  "author": "Gustavo Ranieli Lemes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoRanieli/UMusic/issues"
+  },
+  "homepage": "https://github.com/GustavoRanieli/UMusic#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "path": "^0.12.7"
+  }
+}

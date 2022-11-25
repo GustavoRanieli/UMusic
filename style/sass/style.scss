@@ -43,11 +43,10 @@ main{
 
         .infoProfile{
             display: inline-block;
-            vertical-align: 15px;
+            vertical-align: 80%;
         
                 h3{
-                    font-family: 'Montserrat', sans-serif;
-                    font-weight: 700;
+                    @include titlePainel($tamanho: 0.9vw )
                 }
         
                 div{  
@@ -71,7 +70,7 @@ main{
             padding: 10%;
             margin-top: 80%;
 
-            hr{margin-top: 20%;}
+            hr{margin-top: 60%;}
 
             ul{
                 margin-top: 5%;
@@ -129,7 +128,7 @@ main{
                 @include titlePainel($margin: 2% 0);
             }
 
-        #containerMusic{
+        #containerMusic{ //Div onde amarzena as imgs, p e h2
             display: flex;
             flex-direction: row;
             overflow-x: scroll;
@@ -166,7 +165,7 @@ main{
         }
     }
 
-    // Profile Views e Tracks
+    // Profile Views
     .GridProfiles{
         margin-top: 5%;
         display: grid;
@@ -175,12 +174,38 @@ main{
             h2{
               @include titlePainel()  
             }
+
+            #GridProfiles{ //Div onde amarzena as imgs, p e h2
+                display: flex;
+                flex-direction: column;
+                padding: 3% 0;
+
+                    div{
+                        margin-bottom: 2%;
+                    }
+
+                    img{
+                        display: inline-block;
+                        height: 3vw;
+                        width: 4vw;
+                        border-radius: 15px;
+                    }
+                    
+                    h2{
+                        @include titlePainel($tamanho: 00.8vw);
+                        display: inline-block; 
+                        vertical-align: 150%;
+                        margin-left: 3%;
+                    }
+
+            }
     }
 
+    // Container Tracks
     .Tracks{
         width: 35vw;
                 
-            #Tracks{
+            #Tracks{ //Div onde amarzena as imgs, p e h2
                 display: flex;
                 flex-direction: row;
                 overflow-x: scroll;

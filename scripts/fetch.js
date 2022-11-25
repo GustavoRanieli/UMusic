@@ -1,6 +1,6 @@
-const acessToken = "BQDackVrwIF0wDqM_UHaupnpUplpvYHI_rM8-62DDsfGaHyYt4b-5NqHIRP_-jNXfBmBSCmznilaajc5m06AzSz4mMQ4RWbyz7I4uSnWzjEiLfjjyqrSu_JmjrIFuauPPTNEVqAB7Cw469m5UOpOQknGSA1uuddwMyj5daP2mU5cFw4Y_h_sN2zWHDcqoWyypf82OkivWa--"
-const host = "https://api.spotify.com/v1/me/playlists"
-const fields = "?offset=4"
+const acessToken = "BQCVA1kS4Df-PJyLV_AesjA_o8HeZzCx_j_M1PWUWOfYfn6fNsMozsPBzRw_GCqgCIwtcosooboqXRHmJP1g2DlsocpLtIAs0og-jxPnhUYfsgr3DNug8faNAfRgIyAe7GbQ46QxkjfGZf_NXO5440myn6dR1tJc_qScLGOuGvlxry266Fs66FYqn77VyKq5ttdH8Z09lJIt"
+const host = "https://api.spotify.com/v1/me/playlists" //Link da requisição spotify
+const fields = "?offset=4" //Parâmetro que filtra informação
 
 var spotify = {
     method: 'GET',
@@ -15,7 +15,7 @@ fetch( `${host}${fields}`, spotify )
 .then((response) => response.json())
 // Criando os card no painel principal 
 .then((items) => { 
-    let data = items.items
+    let data = items.items 
     let container = document.querySelector('#containerMusic')
 
     data.forEach((musica, indice) => {

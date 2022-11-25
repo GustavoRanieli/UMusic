@@ -1,4 +1,4 @@
-# UMusic
+# <h1 align="center">UMusic</h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/GustavoRanieli/UMusic?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/GustavoRanieli/UMusic?style=for-the-badge)
@@ -26,6 +26,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Conheça o desafio `https://github.com/mannoeu/landing-page-music`
 * Você instalou a versão mais recente de `Node`
 * Você tem uma máquina `Windows`.
 * Você leu `https://www.devchallenge.com.br/challenges/6304278664d3dd284f07974d/details`.

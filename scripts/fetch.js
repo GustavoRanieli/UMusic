@@ -1,4 +1,4 @@
-const acessToken = "BQB8BXa0y9Fyijf4WrTocjQCWQQ84MCexrN5bmd2Q6OL5MRJsd3haVRo40SyRCI6BqnBax2vAN-_lTcwcwlEGAOTzu4gFra8baGdUXDut7NoZNzSy-7Qw19h4AM3gVrJfJQfGfltdPrs_H01nGsz32KC95b3ZBqUnpqwh9N3iOSiWQ6KlGmxwZGKvPD_he1fFiV-9fotJY2X"
+const acessToken = "BQDackVrwIF0wDqM_UHaupnpUplpvYHI_rM8-62DDsfGaHyYt4b-5NqHIRP_-jNXfBmBSCmznilaajc5m06AzSz4mMQ4RWbyz7I4uSnWzjEiLfjjyqrSu_JmjrIFuauPPTNEVqAB7Cw469m5UOpOQknGSA1uuddwMyj5daP2mU5cFw4Y_h_sN2zWHDcqoWyypf82OkivWa--"
 const host = "https://api.spotify.com/v1/me/playlists"
 const fields = "?offset=4"
 

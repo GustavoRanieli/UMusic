@@ -12,7 +12,7 @@ main {
 
 .SideBar {
   background-color: #040517;
-  height: 100vh;
+  height: auto;
   padding: 7%;
 }
 .SideBar img {
@@ -156,30 +156,47 @@ main {
   margin: 0.5% 0;
 }
 .Painel .Tracks {
-  padding: 5%;
-  width: 70vw;
-  overflow-x: scroll;
+  width: 35vw;
 }
-.Painel .Tracks::-webkit-scrollbar {
+.Painel .Tracks #Tracks {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding: 5% 0;
+}
+.Painel .Tracks #Tracks::-webkit-scrollbar {
   width: 5px;
   border: transparent;
 }
-.Painel .Tracks::-webkit-scrollbar-track {
+.Painel .Tracks #Tracks::-webkit-scrollbar-track {
   background: transparent;
 }
-.Painel .Tracks::-webkit-scrollbar-thumb {
+.Painel .Tracks #Tracks::-webkit-scrollbar-thumb {
   background-color: rgb(32, 15, 86);
   border-radius: 15px;
   width: 20%;
 }
-.Painel .Tracks div {
-  display: flex;
-  flex-direction: row;
+.Painel .Tracks #Tracks div {
+  margin-right: 35px;
 }
-.Painel .Tracks div img {
+.Painel .Tracks #Tracks div img {
   border-radius: 15px;
-  height: 5vw;
-  width: 5vw;
+  height: 10vw;
+  width: 10vw;
+}
+.Painel .Tracks #Tracks div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin: 0.5% 0;
+}
+.Painel .Tracks #Tracks div p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.5vw;
+  vertical-align: 3px;
+  display: inline-block;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=style.css.map */

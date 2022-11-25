@@ -1,4 +1,4 @@
-const acessTokenTrack = "BQBgtQm8wGVyEoFYeLiDiYhvkrgCbc_cQ9HTRfkKYsPPdza_HE4VyZNU6gb9pk0_Dm0bzMFe1nPBq0Zr_sMOzNso9Ojz0x5wrNZsEtuOD2FjdX-q_LOu2R_Xk_-7-k94r744TXaRyR_Ju0-pax_GIINz2Loc1THj7pl_ulDmrnLUqtSUBbVvRvvCql2H5Jl0ql6jrdKs7hBk"
+const acessTokenTrack = "BQAatcYlIW8_vlZnC00lAkja5ojE6s4qi6JUcbvL-SvhVZuzbEyLtFK9nUGcZbQGnGsY4djcrqAAxZnrbXl9EPVxa1XMeU3ujPUIUUEY86zDJfvXkW1buEIA4b_djBTGMuB3dr_VfRlGjIvGvFKrJhu0JSs0AY6CHaAG660srK9YJj9kxa3Ab8uHi0BzNmzOyd6A"
 const hostTrack = "https://api.spotify.com/v1/playlists/"
 const fieldsTrack = "?fields=tracks.items(track(name%2Chref%2Calbum(!name%2Chref%2Cavailable_markets)))"
 

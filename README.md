@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/GustavoRanieli/UMusic?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr/GustavoRanieli/UMusic?style=for-the-badge)
 
-<img src="DevChallenger.jpg" alt="DevChallenger">
+<img src="/assets/image/DevChallenger.jpg" alt="DevChallenger">
 
 > 1 Desafio DevChallenger de frontend, compliquei o desafio usando a API do Spotify, Sass e NodeJs. Pretendo continuar desenvolvendo outras rotas e integrando com Banco de Dados.
 
@@ -61,26 +61,26 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/iuricode">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Template: Iuri Silva</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+      <a href="https://github.com/GustavoRanieli">
+        <img src="/assets/image/perfil.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
         <sub>
           <b>Gustavo Ranieli Lemes</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+      <a href="https://programadorbr.com">
+        <img src="/assets/image/ProgBr.png" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>ProgramadorBr</b>
+          <b>Professor: ProgramadorBr</b>
         </sub>
       </a>
     </td>
@@ -89,7 +89,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 
 ## 😄 Obrigado por ler<br>
-
-
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>

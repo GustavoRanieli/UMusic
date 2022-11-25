@@ -1,5 +1,2 @@
 # Tirando node Modules
 node_modules
-
-# Ignorando arquivo Sass
-style/sass

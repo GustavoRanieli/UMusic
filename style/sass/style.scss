@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@mixin pNav($aling: 3px, $font: 0.5vw) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: $font;
+    vertical-align: $aling;
+    display: inline-block;
+}
+
+@mixin titlePainel($tamanho: 1.3vw, $margin: 0.5% 0){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: $tamanho;
+    margin: $margin;
+}
+
+
+html{
+    height: 100%;
+    color: #fff;
+    background-color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+// Menu Lateral
+.SideBar{
+    background-color: #040517;
+    height: auto;
+    padding: 7%;
+        // Imagem e texto
+        img{
+            display: inline-block;
+            height: auto;
+            width: 15%;
+            border-radius: 15px;
+            margin-right: 2%;
+        }
+
+        .infoProfile{
+            display: inline-block;
+            vertical-align: 15px;
+        
+                h3{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 700;
+                }
+        
+                div{  
+                    margin-top: 5%;
+                    opacity: 0.5;
+
+                        p{
+                            @include pNav();
+                                
+                        }
+                            &:hover{
+                                opacity: 1;
+                                cursor: pointer
+
+                            };
+                }
+        }
+
+        // Navegação
+        nav{
+            padding: 10%;
+            margin-top: 80%;
+
+            hr{margin-top: 20%;}
+
+            ul{
+                margin-top: 5%;
+
+                li{
+                    opacity: 0.5;
+                    cursor: pointer;
+                    margin: 2% 0;
+
+                        p{
+                            @include pNav($aling: 4px, $font: 0.6vw);
+                            margin-left: 2%;
+                        }
+                            &:hover{
+                                opacity: 1;
+                                cursor: pointer
+                            };
+                }
+        }
+    }
+}
+
+// Painel com os cases
+.Painel{
+    background: linear-gradient(to right, #0d1226 0%, #1f1734 100%);
+    padding: 3% 4%;
+
+    // Barra de pesquisa
+    .containerSearch{
+        margin-bottom: 5%;
+
+            .SearchBar{
+                background: transparent;
+                background-image: url('../../assets/image/search.svg');
+                background-repeat: no-repeat;
+                background-position: initial;
+                opacity: 0.5;
+                padding-left: 2%;
+                border: transparent;
+                height: 25px;
+                width: 20%;
+                color: #ffff;
+                    &:focus{
+                        opacity: 1;
+                    }
+            }
+    }
+
+    // Primeiro Container
+    .ContainerImg{
+        width: 70vw;
+
+
+            h2{
+                @include titlePainel($margin: 2% 0);
+            }
+
+        #containerMusic{
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+                    &::-webkit-scrollbar{
+                        width: 5px;
+                        border: transparent
+                    };
+                    &::-webkit-scrollbar-track{
+                        background: transparent;
+                    }; 
+                    &::-webkit-scrollbar-thumb{
+                        background-color: rgb(32, 15, 86);
+                        border-radius: 15px;
+                        width: 20%
+                    };
+                div{
+                    margin-right: 35px;
+                        h2{
+                            @include titlePainel($tamanho: 0.8vw, $margin: 2% 0);
+                            width: 70%;
+                        }
+                }
+
+                img{
+                    border-radius: 15px;
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+                p{
+                    @include pNav();
+                    opacity: 0.5;
+                }
+        }
+    }
+
+    // Profile Views e Tracks
+    .GridProfiles{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+            h2{
+              @include titlePainel()  
+            }
+    }
+
+    .Tracks{
+        width: 35vw;
+                
+            #Tracks{
+                display: flex;
+                flex-direction: row;
+                overflow-x: scroll;
+                padding: 5% 0;
+                    &::-webkit-scrollbar{
+                        width: 5px;
+                        border: transparent
+                    };
+                    &::-webkit-scrollbar-track{
+                        background: transparent;
+                    }; 
+                    &::-webkit-scrollbar-thumb{
+                        background-color: rgb(32, 15, 86);
+                        border-radius: 15px;
+                        width: 20%
+                    };
+
+
+                        div{        
+                            margin-right: 35px;
+                                img{
+                                    border-radius: 15px;
+                                    height: 10vw;
+                                    width: 10vw; 
+                                }
+            
+                                h2{
+                                    @include titlePainel();
+                                }
+            
+                                p{
+                                    @include pNav();
+                                    opacity: 0.5;
+                                }
+                        }
+            }   
+    }
+}

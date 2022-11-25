@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/GustavoRanieli/UMusic?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr/GustavoRanieli/UMusic?style=for-the-badge)
 
-<img src="/assets/image/DevChallenger.jpg" alt="DevChallenger">
+<img src="/assets/image/DevChallenger.jpeg" alt="DevChallenger">
 
 > 1 Desafio DevChallenger de frontend, compliquei o desafio usando a API do Spotify, Sass e NodeJs. Pretendo continuar desenvolvendo outras rotas e integrando com Banco de Dados.
 
